@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txvw_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SERVER NAME"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/txvw_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SERVER IP"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"/>
+</LinearLayout>
